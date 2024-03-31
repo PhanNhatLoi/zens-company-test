@@ -1,0 +1,15 @@
+/* CSS để ẩn và hiển thị loader */
+.loader {
+    display: block;
+    border: 2px solid #ffffff; /* Màu của spinner */
+    border-top: 2px solid #ffffff00; /* Màu của spinner */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1.5s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
